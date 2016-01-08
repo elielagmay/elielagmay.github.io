@@ -28,8 +28,10 @@ a {
   padding: 0 1px;
   margin: 0 -1px;
   text-decoration: none;
-  transition: all 0.12s ease-in-out;
   white-space: nowrap;
+  -webkit-transition: border 0.12s ease-in-out;
+  -moz-transition: border 0.12s ease-in-out;
+  transition: border 0.12s ease-in-out;
 }
 
 a:hover {
